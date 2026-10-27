@@ -1,0 +1,25 @@
+{
+  "name": "phantom-dependency-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phantom Dependency — A local-first AI-powered dependency investigation tool",
+  "scripts": {
+    "dev:web": "pnpm --filter @phantom/web dev",
+    "build:web": "pnpm --filter @phantom/web build",
+    "lint:web": "pnpm --filter @phantom/web lint",
+    "test:web": "pnpm --filter @phantom/web test",
+    "dev:api": "powershell -ExecutionPolicy Bypass -File ./scripts/dev.ps1 -ApiOnly",
+    "dev": "powershell -ExecutionPolicy Bypass -File ./scripts/dev.ps1"
+  },
+  "keywords": [
+    "phantom-dependency",
+    "dependencies",
+    "audit",
+    "ollama",
+    "gemma3",
+    "hacktoberfest"
+  ],
+  "author": "Ahzem & Antigravity",
+  "license": "MIT",
+  "devDependencies": {}
+}

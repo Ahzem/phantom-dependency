@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+apps/web/.next/
+apps/web/out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+apps/api/.venv/
+apps/api/venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & reports
+apps/api/.data/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
